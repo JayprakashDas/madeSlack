@@ -26,7 +26,8 @@ body{
 .room-list li{
     cursor: pointer;
     list-style-type: none;
-    padding: 0px 15px;
+    padding: 10px 15px;
+    /* width:100px */
 }
 
 .room-list li span{
@@ -115,15 +116,20 @@ input {
     align-items: stretch;
 }
 h3 {
-    color: #fff;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    letter-spacing: 2px;
-    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 600;
     margin-bottom: 30px;
     margin-top: 40px;
-    border: #F4E2D8 1.5px solid;
+    background: #F7F8F8;
+    width: 270px;
+    margin-left: -16px;
+    height: 70px;
+    /* border: #F4E2D8 1.5px solid; */
     text-align: center;
+    padding-top: 25px;
 }
  .room{
     color: white;
@@ -131,12 +137,14 @@ h3 {
     font-family: sans-serif;
     letter-spacing: 2px;
     margin: 10px 0;
+    padding-top: 50px;
     
 }
 .namespace{
     margin: 20px 0;
     border: #F4E2D8 1.5px solid;
     padding: 10px 10px;
+    
 }
 #user-message,
 #search-box{
@@ -152,10 +160,13 @@ h3 {
     color: #222;
 }
 
+.room:hover,
+.namespace:hover{
+    /* border: #0f9b0f 2px solid; */
+    background: #F7F8F8;
+    color: black;
 
-
-
-
+}
 
 
 
