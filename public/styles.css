@@ -4,7 +4,7 @@ body{
 }
 
 .namespaces{
-    background-color: #282c34;
+    background-color: rgba(58, 97, 134, 1);
     min-height: 100vh;
     color: #ABB2BF;
     text-align: center;
@@ -39,7 +39,7 @@ body{
 }
 
 .rooms{
-    background: #3B4048;
+    background: rgba(253, 116, 108, 0.7);
     min-height: 100vh;
     color: #ABB2BF;
     
@@ -113,6 +113,43 @@ input {
     padding: 5px 10px; 
     display: flex;
     align-items: stretch;
+}
+h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    border: #F4E2D8 1.5px solid;
+    text-align: center;
+}
+ .room{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    
+}
+.namespace{
+    margin: 20px 0;
+    border: #F4E2D8 1.5px solid;
+    padding: 10px 10px;
+}
+#user-message,
+#search-box{
+    border: #240b36 1.5px solid;
+    margin-bottom:10px; 
+    text-transform: uppercase;  
+
+}
+.curr-room-num-users{
+    color:#0f9b0f;
+}
+.curr-room-text{
+    color: #222;
 }
 
 
