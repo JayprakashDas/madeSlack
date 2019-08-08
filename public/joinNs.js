@@ -4,7 +4,7 @@ function joinNS(endpoint){
 
         document.querySelector('#user-input').removeEventListener('submit', formSubmit);
     }
-    nsSocket = io(`http://localhost:9000${endpoint}`);
+    nsSocket = io(`https://slack-copy-2.herokuapp.com${endpoint}`);
     nsSocket.on('nsRoomLoad',(nsRooms)=>{
         let roomList = document.querySelector('.room-list');
         roomList.innerHTML='';
