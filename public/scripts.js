@@ -2,7 +2,7 @@
 
 const username = prompt("Please enter your Name")
 
-const socket = io('http://localhost:9000',{
+const socket = io('https://slack-copy-2.herokuapp.com',{
     query:{
         username:username
     }
